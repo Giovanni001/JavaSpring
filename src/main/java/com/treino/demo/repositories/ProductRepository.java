@@ -3,8 +3,8 @@ package com.treino.demo.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.treino.demo.entities.Category;
+import com.treino.demo.entities.Product;
 
 @Repository
-public interface CategoryRepository extends JpaRepository<Category, Long>{
+public interface ProductRepository extends JpaRepository<Product, Long>{
 }
